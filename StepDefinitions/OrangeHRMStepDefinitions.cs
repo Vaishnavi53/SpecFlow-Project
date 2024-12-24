@@ -25,7 +25,7 @@ namespace SpecFlowPractise.StepDefinitions
         public void GivenUserIsOnTheOrangeHrmLoginPage()
         {
 
-
+            //naviagte 
             _driver.Navigate().GoToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
             _driver.Manage().Window.Maximize();
             Thread.Sleep(2000);
@@ -74,7 +74,7 @@ namespace SpecFlowPractise.StepDefinitions
         [Then(@"User is on the home page and a error is displayed")]
         public void ThenUserIsOnTheHomePageAndAErrorIsDisplayed()
         {
-            Console.WriteLine("error");
+            Console.WriteLine("error");  //This prints error 
         }
 
     }
